@@ -3,6 +3,7 @@
 **RoboScope UI** is a Streamlit-based UI for exploring, analyzing, and visualizing test results recorded with [RoboScope](https://github.com/geomags3/roboscope).  
 It allows hardware teams to inspect structured measurement data (numeric, string, boolean, series) with flexible filters and intuitive charts.
 
+🚀 **Live Demo**: [roboscope-ui.streamlit.app](https://roboscope-ui.streamlit.app)
 
 ## 🔍 Key Features
 
@@ -21,7 +22,7 @@ It allows hardware teams to inspect structured measurement data (numeric, string
 
 1. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install -e .
    ```
 
 2. **Launch the app**
